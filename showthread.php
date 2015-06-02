@@ -42,7 +42,7 @@ echo '<h1>Reply to thread</h1>
     
              <p><b>Reply:</p></b>
 
-                <input type="text" name="reply" style="width:405px; height:150px;">
+                <textarea  name="reply" style="width:405px; height:150px;"> </textarea>
 <br></br>
                   <input name="submitted"  type ="submit" value ="Post" />
                   </form>';

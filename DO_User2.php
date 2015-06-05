@@ -1,10 +1,5 @@
 <?php
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /**
  * Description of DO_User2
@@ -25,7 +20,10 @@ class DO_User {
     }
 
     function validateUserDetails() {
-        
+         $this->StartConnection();
+    }
+     function validateEmail() {
+         $this->StartConnection();
     }
 
     function getUserName() {

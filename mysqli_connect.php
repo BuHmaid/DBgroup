@@ -3,7 +3,7 @@
 /**
  * Description of DBconnection
  *
- * @author Machine
+ * @author 201101299
  */
 class Database {
 
